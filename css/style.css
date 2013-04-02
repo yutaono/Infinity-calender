@@ -1,0 +1,57 @@
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+ul#days{
+	text-align: center;
+	font-size: 0;
+}
+
+ul#days li{
+	margin: 0;
+	padding: 5px 20px 5px 20px;
+	display: inline;
+	list-style: none;
+	font-size: 12px;
+}
+
+/* sunday */
+ul#days li:nth-child(1){
+	background: red;
+}
+
+/* monday */
+ul#days li:nth-child(2){
+	background: orange;
+}
+
+/* tuesday */
+ul#days li:nth-child(3){
+	background: yellow;
+}
+
+/* wednesday */
+ul#days li:nth-child(4){
+	background: green;
+}
+
+/* thursday */
+ul#days li:nth-child(5){
+	background: blue;
+}
+
+/* Friday */
+ul#days li:nth-child(6){
+	background: navy;
+}
+
+/* Saturday */
+ul#days li:nth-child(7){
+	background: purple;
+}
+
